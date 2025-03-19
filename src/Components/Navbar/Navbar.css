@@ -3,22 +3,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
-  height: 100px; /* Banner height */
-  background-color: #003f88; /* Light blue gradient */
+  height: 80px; /* Consistent height */
+  background: linear-gradient(135deg, #004e92, #000428); /* Deep blue gradient */
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
-=======
-  height: 80px;
-  background: linear-gradient(135deg, #004e92, #000428); /* Deep blue gradient */
-  color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
->>>>>>> fb001798c8013077af33ec5db64d3254b359f954
   position: relative;
   padding: 0 20px;
   margin-bottom: 30px; /* Adjust as needed */
+  width: 100%;
 }
 
 /* Left and Right Patterns */
@@ -54,13 +48,8 @@
 
 .nav-item a {
   text-decoration: none;
-<<<<<<< HEAD
   font-size: 1.2rem;
   font-weight: 500;
-=======
-  font-size: 1.1rem;
-  font-weight: bold;
->>>>>>> fb001798c8013077af33ec5db64d3254b359f954
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
@@ -69,7 +58,6 @@
 
 .nav-item a:hover {
   background-color: #1c75bc;
-  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
 }
@@ -77,9 +65,9 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar-container {
-    height: auto;
     flex-direction: column;
     padding: 10px;
+    height: auto;
   }
 
   .nav-menu {
